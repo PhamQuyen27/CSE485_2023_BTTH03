@@ -1,6 +1,4 @@
 <?php
-
-
 // require_once 'vendor/autoload.php';
 // require_once 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
 // require_once 'vendor/phpmailer/phpmailer/src/SMTP.php';
@@ -69,6 +67,6 @@ class GmailEmailServer implements EmailServerInterface {
     }
 }
 
-$emailServer = new GmailEmailServer('quyenpham27122002@gmail.com', 'tpcwzqztgaqrayto');
-$emailSender = new EmailSender($emailServer);
-$emailSender->send("quyenpham0712@gmail.com", "Test Email", "This is a test email.");
+// $emailServer = new GmailEmailServer('quyenpham27122002@gmail.com', 'tpcwzqztgaqrayto');
+// $emailSender = new EmailSender($emailServer);
+// $emailSender->send("quyenpham0712@gmail.com", "Test Email", "This is a test email.");
